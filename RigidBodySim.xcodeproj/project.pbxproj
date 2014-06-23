@@ -19,6 +19,8 @@
 		BD6352E719584C6D0001F2C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6352CF19584C6D0001F2C1 /* UIKit.framework */; };
 		BD6352EF19584C6D0001F2C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6352ED19584C6D0001F2C1 /* InfoPlist.strings */; };
 		BD6352F119584C6D0001F2C1 /* RigidBodySimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6352F019584C6D0001F2C1 /* RigidBodySimTests.m */; };
+		BD88C0221958950C009B8708 /* Vector.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88C0211958950C009B8708 /* Vector.m */; };
+		BD88C025195895C9009B8708 /* RigidBody2D.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88C024195895C9009B8708 /* RigidBody2D.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		BD6352EC19584C6D0001F2C1 /* RigidBodySimTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RigidBodySimTests-Info.plist"; sourceTree = "<group>"; };
 		BD6352EE19584C6D0001F2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD6352F019584C6D0001F2C1 /* RigidBodySimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RigidBodySimTests.m; sourceTree = "<group>"; };
+		BD88C0201958950C009B8708 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector.h; path = RigidBodySim/Vector.h; sourceTree = "<group>"; };
+		BD88C0211958950C009B8708 /* Vector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vector.m; path = RigidBodySim/Vector.m; sourceTree = "<group>"; };
+		BD88C023195895C9009B8708 /* RigidBody2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RigidBody2D.h; path = RigidBodySim/RigidBody2D.h; sourceTree = "<group>"; };
+		BD88C024195895C9009B8708 /* RigidBody2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RigidBody2D.m; path = RigidBodySim/RigidBody2D.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 		BD6352BF19584C6D0001F2C1 = {
 			isa = PBXGroup;
 			children = (
+				BD88C023195895C9009B8708 /* RigidBody2D.h */,
+				BD88C024195895C9009B8708 /* RigidBody2D.m */,
+				BD88C0201958950C009B8708 /* Vector.h */,
+				BD88C0211958950C009B8708 /* Vector.m */,
 				BD6352D119584C6D0001F2C1 /* RigidBodySim */,
 				BD6352EA19584C6D0001F2C1 /* RigidBodySimTests */,
 				BD6352CA19584C6D0001F2C1 /* Frameworks */,
@@ -241,6 +251,8 @@
 			files = (
 				BD6352DC19584C6D0001F2C1 /* AppDelegate.m in Sources */,
 				BD6352D819584C6D0001F2C1 /* main.m in Sources */,
+				BD88C0221958950C009B8708 /* Vector.m in Sources */,
+				BD88C025195895C9009B8708 /* RigidBody2D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +449,7 @@
 				BD6352F619584C6D0001F2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD6352F719584C6D0001F2C1 /* Build configuration list for PBXNativeTarget "RigidBodySimTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				BD6352F919584C6D0001F2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
