@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>96BAB799-6A50-464C-940C-E3AAF295A2FB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RigidBodySim</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>372B8AC2-1A05-42C9-9312-4E044C3BCFCF</key>
+		<string>https://github.com/adrpapa/RigidBodySim.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Repositorio/RigidBodySim/RigidBodySim.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>372B8AC2-1A05-42C9-9312-4E044C3BCFCF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adrpapa/RigidBodySim.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>372B8AC2-1A05-42C9-9312-4E044C3BCFCF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>372B8AC2-1A05-42C9-9312-4E044C3BCFCF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RigidBodySim</string>
+		</dict>
+	</array>
+</dict>
+</plist>

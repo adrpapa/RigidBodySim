@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD6352CC19584C6D0001F2C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6352CB19584C6D0001F2C1 /* Foundation.framework */; };
+		BD6352CE19584C6D0001F2C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6352CD19584C6D0001F2C1 /* CoreGraphics.framework */; };
+		BD6352D019584C6D0001F2C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6352CF19584C6D0001F2C1 /* UIKit.framework */; };
+		BD6352D619584C6D0001F2C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6352D419584C6D0001F2C1 /* InfoPlist.strings */; };
+		BD6352D819584C6D0001F2C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6352D719584C6D0001F2C1 /* main.m */; };
+		BD6352DC19584C6D0001F2C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6352DB19584C6D0001F2C1 /* AppDelegate.m */; };
+		BD6352DE19584C6D0001F2C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6352DD19584C6D0001F2C1 /* Images.xcassets */; };
+		BD6352E519584C6D0001F2C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6352E419584C6D0001F2C1 /* XCTest.framework */; };
+		BD6352E619584C6D0001F2C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6352CB19584C6D0001F2C1 /* Foundation.framework */; };
+		BD6352E719584C6D0001F2C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6352CF19584C6D0001F2C1 /* UIKit.framework */; };
+		BD6352EF19584C6D0001F2C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6352ED19584C6D0001F2C1 /* InfoPlist.strings */; };
+		BD6352F119584C6D0001F2C1 /* RigidBodySimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6352F019584C6D0001F2C1 /* RigidBodySimTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD6352E819584C6D0001F2C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD6352C019584C6D0001F2C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6352C719584C6D0001F2C1;
+			remoteInfo = RigidBodySim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD6352C819584C6D0001F2C1 /* RigidBodySim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RigidBodySim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6352CB19584C6D0001F2C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD6352CD19584C6D0001F2C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD6352CF19584C6D0001F2C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD6352D319584C6D0001F2C1 /* RigidBodySim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RigidBodySim-Info.plist"; sourceTree = "<group>"; };
+		BD6352D519584C6D0001F2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD6352D719584C6D0001F2C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD6352D919584C6D0001F2C1 /* RigidBodySim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RigidBodySim-Prefix.pch"; sourceTree = "<group>"; };
+		BD6352DA19584C6D0001F2C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD6352DB19584C6D0001F2C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD6352DD19584C6D0001F2C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD6352E319584C6D0001F2C1 /* RigidBodySimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RigidBodySimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6352E419584C6D0001F2C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BD6352EC19584C6D0001F2C1 /* RigidBodySimTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RigidBodySimTests-Info.plist"; sourceTree = "<group>"; };
+		BD6352EE19584C6D0001F2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD6352F019584C6D0001F2C1 /* RigidBodySimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RigidBodySimTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6352C519584C6D0001F2C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6352CE19584C6D0001F2C1 /* CoreGraphics.framework in Frameworks */,
+				BD6352D019584C6D0001F2C1 /* UIKit.framework in Frameworks */,
+				BD6352CC19584C6D0001F2C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6352E019584C6D0001F2C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6352E519584C6D0001F2C1 /* XCTest.framework in Frameworks */,
+				BD6352E719584C6D0001F2C1 /* UIKit.framework in Frameworks */,
+				BD6352E619584C6D0001F2C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD6352BF19584C6D0001F2C1 = {
+			isa = PBXGroup;
+			children = (
+				BD6352D119584C6D0001F2C1 /* RigidBodySim */,
+				BD6352EA19584C6D0001F2C1 /* RigidBodySimTests */,
+				BD6352CA19584C6D0001F2C1 /* Frameworks */,
+				BD6352C919584C6D0001F2C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6352C919584C6D0001F2C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6352C819584C6D0001F2C1 /* RigidBodySim.app */,
+				BD6352E319584C6D0001F2C1 /* RigidBodySimTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6352CA19584C6D0001F2C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD6352CB19584C6D0001F2C1 /* Foundation.framework */,
+				BD6352CD19584C6D0001F2C1 /* CoreGraphics.framework */,
+				BD6352CF19584C6D0001F2C1 /* UIKit.framework */,
+				BD6352E419584C6D0001F2C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD6352D119584C6D0001F2C1 /* RigidBodySim */ = {
+			isa = PBXGroup;
+			children = (
+				BD6352DA19584C6D0001F2C1 /* AppDelegate.h */,
+				BD6352DB19584C6D0001F2C1 /* AppDelegate.m */,
+				BD6352DD19584C6D0001F2C1 /* Images.xcassets */,
+				BD6352D219584C6D0001F2C1 /* Supporting Files */,
+			);
+			path = RigidBodySim;
+			sourceTree = "<group>";
+		};
+		BD6352D219584C6D0001F2C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6352D319584C6D0001F2C1 /* RigidBodySim-Info.plist */,
+				BD6352D419584C6D0001F2C1 /* InfoPlist.strings */,
+				BD6352D719584C6D0001F2C1 /* main.m */,
+				BD6352D919584C6D0001F2C1 /* RigidBodySim-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD6352EA19584C6D0001F2C1 /* RigidBodySimTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6352F019584C6D0001F2C1 /* RigidBodySimTests.m */,
+				BD6352EB19584C6D0001F2C1 /* Supporting Files */,
+			);
+			path = RigidBodySimTests;
+			sourceTree = "<group>";
+		};
+		BD6352EB19584C6D0001F2C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6352EC19584C6D0001F2C1 /* RigidBodySimTests-Info.plist */,
+				BD6352ED19584C6D0001F2C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6352C719584C6D0001F2C1 /* RigidBodySim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6352F419584C6D0001F2C1 /* Build configuration list for PBXNativeTarget "RigidBodySim" */;
+			buildPhases = (
+				BD6352C419584C6D0001F2C1 /* Sources */,
+				BD6352C519584C6D0001F2C1 /* Frameworks */,
+				BD6352C619584C6D0001F2C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RigidBodySim;
+			productName = RigidBodySim;
+			productReference = BD6352C819584C6D0001F2C1 /* RigidBodySim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD6352E219584C6D0001F2C1 /* RigidBodySimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6352F719584C6D0001F2C1 /* Build configuration list for PBXNativeTarget "RigidBodySimTests" */;
+			buildPhases = (
+				BD6352DF19584C6D0001F2C1 /* Sources */,
+				BD6352E019584C6D0001F2C1 /* Frameworks */,
+				BD6352E119584C6D0001F2C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD6352E919584C6D0001F2C1 /* PBXTargetDependency */,
+			);
+			name = RigidBodySimTests;
+			productName = RigidBodySimTests;
+			productReference = BD6352E319584C6D0001F2C1 /* RigidBodySimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6352C019584C6D0001F2C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Adriano Papa";
+				TargetAttributes = {
+					BD6352E219584C6D0001F2C1 = {
+						TestTargetID = BD6352C719584C6D0001F2C1;
+					};
+				};
+			};
+			buildConfigurationList = BD6352C319584C6D0001F2C1 /* Build configuration list for PBXProject "RigidBodySim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD6352BF19584C6D0001F2C1;
+			productRefGroup = BD6352C919584C6D0001F2C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6352C719584C6D0001F2C1 /* RigidBodySim */,
+				BD6352E219584C6D0001F2C1 /* RigidBodySimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6352C619584C6D0001F2C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6352D619584C6D0001F2C1 /* InfoPlist.strings in Resources */,
+				BD6352DE19584C6D0001F2C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6352E119584C6D0001F2C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6352EF19584C6D0001F2C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6352C419584C6D0001F2C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6352DC19584C6D0001F2C1 /* AppDelegate.m in Sources */,
+				BD6352D819584C6D0001F2C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6352DF19584C6D0001F2C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6352F119584C6D0001F2C1 /* RigidBodySimTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD6352E919584C6D0001F2C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6352C719584C6D0001F2C1 /* RigidBodySim */;
+			targetProxy = BD6352E819584C6D0001F2C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD6352D419584C6D0001F2C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6352D519584C6D0001F2C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD6352ED19584C6D0001F2C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6352EE19584C6D0001F2C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD6352F219584C6D0001F2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD6352F319584C6D0001F2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD6352F519584C6D0001F2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RigidBodySim/RigidBodySim-Prefix.pch";
+				INFOPLIST_FILE = "RigidBodySim/RigidBodySim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD6352F619584C6D0001F2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RigidBodySim/RigidBodySim-Prefix.pch";
+				INFOPLIST_FILE = "RigidBodySim/RigidBodySim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD6352F819584C6D0001F2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RigidBodySim.app/RigidBodySim";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RigidBodySim/RigidBodySim-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RigidBodySimTests/RigidBodySimTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BD6352F919584C6D0001F2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RigidBodySim.app/RigidBodySim";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RigidBodySim/RigidBodySim-Prefix.pch";
+				INFOPLIST_FILE = "RigidBodySimTests/RigidBodySimTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6352C319584C6D0001F2C1 /* Build configuration list for PBXProject "RigidBodySim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6352F219584C6D0001F2C1 /* Debug */,
+				BD6352F319584C6D0001F2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6352F419584C6D0001F2C1 /* Build configuration list for PBXNativeTarget "RigidBodySim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6352F519584C6D0001F2C1 /* Debug */,
+				BD6352F619584C6D0001F2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD6352F719584C6D0001F2C1 /* Build configuration list for PBXNativeTarget "RigidBodySimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6352F819584C6D0001F2C1 /* Debug */,
+				BD6352F919584C6D0001F2C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD6352C019584C6D0001F2C1 /* Project object */;
+}
