@@ -15,6 +15,7 @@
 #define _DTTHRUST       0.001f
 #define _STEERINGFORCE  3.0f
 #define _LINEARDRAGCOEFFICIENT  1.25f
+#define _AIRDENSITY     1.204f
 
 @interface RigidBody2D : NSObject
 {
